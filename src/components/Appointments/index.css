@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0, #8b5cf6);
+  background-size: cover;
+}
+
+.Appointment-container {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.Input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  order: 0;
+}
+.add-button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.title-input-element {
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.Appointments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
